@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C408D01D8FED6F00BC7CB8 /* zstd.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C408A71D8FED6F00BC7CB8 /* zstd.h */; };
+		00EAA29F1DD44DF300CCA720 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 00EAA29E1DD44DF300CCA720 /* PrefixHeader.pch */; };
+		F525E3FC225C79E50082BBD5 /* zstd_v05.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3A7225C79E50082BBD5 /* zstd_v05.c */; };
+		F525E3FD225C79E50082BBD5 /* zstd_v03.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3A8225C79E50082BBD5 /* zstd_v03.h */; };
+		F525E3FE225C79E50082BBD5 /* zstd_v07.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3A9225C79E50082BBD5 /* zstd_v07.h */; };
+		F525E3FF225C79E50082BBD5 /* zstd_v01.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3AA225C79E50082BBD5 /* zstd_v01.c */; };
+		F525E400225C79E50082BBD5 /* zstd_v06.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3AB225C79E50082BBD5 /* zstd_v06.c */; };
+		F525E401225C79E50082BBD5 /* zstd_v02.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3AC225C79E50082BBD5 /* zstd_v02.c */; };
+		F525E402225C79E50082BBD5 /* zstd_v04.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3AD225C79E50082BBD5 /* zstd_v04.h */; };
+		F525E403225C79E50082BBD5 /* zstd_v01.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3AE225C79E50082BBD5 /* zstd_v01.h */; };
+		F525E404225C79E50082BBD5 /* zstd_v07.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3AF225C79E50082BBD5 /* zstd_v07.c */; };
+		F525E405225C79E50082BBD5 /* zstd_v03.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3B0225C79E50082BBD5 /* zstd_v03.c */; };
+		F525E406225C79E50082BBD5 /* zstd_v05.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3B1225C79E50082BBD5 /* zstd_v05.h */; };
+		F525E407225C79E50082BBD5 /* zstd_v04.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3B2225C79E50082BBD5 /* zstd_v04.c */; };
+		F525E408225C79E50082BBD5 /* zstd_v02.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3B3225C79E50082BBD5 /* zstd_v02.h */; };
+		F525E409225C79E50082BBD5 /* zstd_legacy.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3B4225C79E50082BBD5 /* zstd_legacy.h */; };
+		F525E40A225C79E50082BBD5 /* zstd_v06.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3B5225C79E50082BBD5 /* zstd_v06.h */; };
+		F525E40B225C79E50082BBD5 /* zdict.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3B7225C79E50082BBD5 /* zdict.h */; };
+		F525E40C225C79E50082BBD5 /* cover.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3B8225C79E50082BBD5 /* cover.c */; };
+		F525E40D225C79E50082BBD5 /* divsufsort.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3B9225C79E50082BBD5 /* divsufsort.c */; };
+		F525E40E225C79E50082BBD5 /* fastcover.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3BA225C79E50082BBD5 /* fastcover.c */; };
+		F525E40F225C79E50082BBD5 /* zdict.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3BB225C79E50082BBD5 /* zdict.c */; };
+		F525E410225C79E50082BBD5 /* cover.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3BC225C79E50082BBD5 /* cover.h */; };
+		F525E411225C79E50082BBD5 /* divsufsort.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3BD225C79E50082BBD5 /* divsufsort.h */; };
+		F525E412225C79E50082BBD5 /* zstd_ddict.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3BF225C79E50082BBD5 /* zstd_ddict.c */; };
+		F525E413225C79E50082BBD5 /* huf_decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3C0225C79E50082BBD5 /* huf_decompress.c */; };
+		F525E414225C79E50082BBD5 /* zstd_decompress_block.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3C1225C79E50082BBD5 /* zstd_decompress_block.h */; };
+		F525E415225C79E50082BBD5 /* zstd_decompress_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3C2225C79E50082BBD5 /* zstd_decompress_internal.h */; };
+		F525E416225C79E50082BBD5 /* zstd_decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3C3225C79E50082BBD5 /* zstd_decompress.c */; };
+		F525E417225C79E50082BBD5 /* zstd_ddict.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3C4225C79E50082BBD5 /* zstd_ddict.h */; };
+		F525E418225C79E50082BBD5 /* zstd_decompress_block.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3C5225C79E50082BBD5 /* zstd_decompress_block.c */; };
+		F525E419225C79E50082BBD5 /* zbuff_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3C7225C79E50082BBD5 /* zbuff_common.c */; };
+		F525E41A225C79E50082BBD5 /* zbuff_decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3C8225C79E50082BBD5 /* zbuff_decompress.c */; };
+		F525E41B225C79E50082BBD5 /* zbuff.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3C9225C79E50082BBD5 /* zbuff.h */; };
+		F525E41C225C79E50082BBD5 /* zbuff_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3CA225C79E50082BBD5 /* zbuff_compress.c */; };
+		F525E41D225C79E50082BBD5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F525E3CD225C79E50082BBD5 /* Makefile */; };
+		F525E41E225C79E50082BBD5 /* xxhash.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3D4225C79E50082BBD5 /* xxhash.h */; };
+		F525E41F225C79E50082BBD5 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3D5225C79E50082BBD5 /* debug.h */; };
+		F525E420225C79E50082BBD5 /* pool.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3D6225C79E50082BBD5 /* pool.h */; };
+		F525E421225C79E50082BBD5 /* compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3D7225C79E50082BBD5 /* compiler.h */; };
+		F525E422225C79E50082BBD5 /* entropy_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3D8225C79E50082BBD5 /* entropy_common.c */; };
+		F525E423225C79E50082BBD5 /* threading.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3D9225C79E50082BBD5 /* threading.h */; };
+		F525E424225C79E50082BBD5 /* error_private.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3DA225C79E50082BBD5 /* error_private.h */; };
+		F525E425225C79E50082BBD5 /* fse_decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3DB225C79E50082BBD5 /* fse_decompress.c */; };
+		F525E426225C79E50082BBD5 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3DC225C79E50082BBD5 /* debug.c */; };
+		F525E427225C79E50082BBD5 /* xxhash.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3DD225C79E50082BBD5 /* xxhash.c */; };
+		F525E428225C79E50082BBD5 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3DE225C79E50082BBD5 /* bitstream.h */; };
+		F525E429225C79E50082BBD5 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3DF225C79E50082BBD5 /* cpu.h */; };
+		F525E42A225C79E50082BBD5 /* zstd_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3E0225C79E50082BBD5 /* zstd_errors.h */; };
+		F525E42B225C79E50082BBD5 /* pool.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3E1225C79E50082BBD5 /* pool.c */; };
+		F525E42C225C79E50082BBD5 /* huf.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3E2225C79E50082BBD5 /* huf.h */; };
+		F525E42D225C79E50082BBD5 /* mem.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3E3225C79E50082BBD5 /* mem.h */; };
+		F525E42E225C79E50082BBD5 /* threading.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3E4225C79E50082BBD5 /* threading.c */; };
+		F525E42F225C79E50082BBD5 /* zstd_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3E5225C79E50082BBD5 /* zstd_common.c */; };
+		F525E430225C79E50082BBD5 /* fse.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3E6225C79E50082BBD5 /* fse.h */; };
+		F525E431225C79E50082BBD5 /* zstd_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3E7225C79E50082BBD5 /* zstd_internal.h */; };
+		F525E432225C79E50082BBD5 /* error_private.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3E8225C79E50082BBD5 /* error_private.c */; };
+		F525E433225C79E50082BBD5 /* zstd_compress_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3EA225C79E50082BBD5 /* zstd_compress_internal.h */; };
+		F525E434225C79E50082BBD5 /* hist.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3EB225C79E50082BBD5 /* hist.h */; };
+		F525E435225C79E50082BBD5 /* zstd_ldm.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3EC225C79E50082BBD5 /* zstd_ldm.h */; };
+		F525E436225C79E50082BBD5 /* zstd_lazy.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3ED225C79E50082BBD5 /* zstd_lazy.h */; };
+		F525E437225C79E50082BBD5 /* zstdmt_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3EE225C79E50082BBD5 /* zstdmt_compress.c */; };
+		F525E438225C79E50082BBD5 /* zstd_double_fast.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3EF225C79E50082BBD5 /* zstd_double_fast.c */; };
+		F525E439225C79E50082BBD5 /* zstd_fast.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F0225C79E50082BBD5 /* zstd_fast.c */; };
+		F525E43A225C79E50082BBD5 /* zstd_opt.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3F1225C79E50082BBD5 /* zstd_opt.h */; };
+		F525E43B225C79E50082BBD5 /* zstd_ldm.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F2225C79E50082BBD5 /* zstd_ldm.c */; };
+		F525E43C225C79E50082BBD5 /* hist.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F3225C79E50082BBD5 /* hist.c */; };
+		F525E43D225C79E50082BBD5 /* zstd_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F4225C79E50082BBD5 /* zstd_compress.c */; };
+		F525E43E225C79E50082BBD5 /* zstd_double_fast.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3F5225C79E50082BBD5 /* zstd_double_fast.h */; };
+		F525E43F225C79E50082BBD5 /* zstd_lazy.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F6225C79E50082BBD5 /* zstd_lazy.c */; };
+		F525E440225C79E50082BBD5 /* zstdmt_compress.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3F7225C79E50082BBD5 /* zstdmt_compress.h */; };
+		F525E441225C79E50082BBD5 /* huf_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F8225C79E50082BBD5 /* huf_compress.c */; };
+		F525E442225C79E50082BBD5 /* zstd_opt.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3F9225C79E50082BBD5 /* zstd_opt.c */; };
+		F525E443225C79E50082BBD5 /* fse_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = F525E3FA225C79E50082BBD5 /* fse_compress.c */; };
+		F525E444225C79E50082BBD5 /* zstd_fast.h in Headers */ = {isa = PBXBuildFile; fileRef = F525E3FB225C79E50082BBD5 /* zstd_fast.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0074E40C1D534D0B00018C2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		003ADCF61DB4766500A41BC6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0074E40E1D534D0B00018C2A /* libzstd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzstd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C408A71D8FED6F00BC7CB8 /* zstd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd.h; sourceTree = "<group>"; };
+		00EAA29E1DD44DF300CCA720 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F525E3A7225C79E50082BBD5 /* zstd_v05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v05.c; sourceTree = "<group>"; };
+		F525E3A8225C79E50082BBD5 /* zstd_v03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v03.h; sourceTree = "<group>"; };
+		F525E3A9225C79E50082BBD5 /* zstd_v07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v07.h; sourceTree = "<group>"; };
+		F525E3AA225C79E50082BBD5 /* zstd_v01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v01.c; sourceTree = "<group>"; };
+		F525E3AB225C79E50082BBD5 /* zstd_v06.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v06.c; sourceTree = "<group>"; };
+		F525E3AC225C79E50082BBD5 /* zstd_v02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v02.c; sourceTree = "<group>"; };
+		F525E3AD225C79E50082BBD5 /* zstd_v04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v04.h; sourceTree = "<group>"; };
+		F525E3AE225C79E50082BBD5 /* zstd_v01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v01.h; sourceTree = "<group>"; };
+		F525E3AF225C79E50082BBD5 /* zstd_v07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v07.c; sourceTree = "<group>"; };
+		F525E3B0225C79E50082BBD5 /* zstd_v03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v03.c; sourceTree = "<group>"; };
+		F525E3B1225C79E50082BBD5 /* zstd_v05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v05.h; sourceTree = "<group>"; };
+		F525E3B2225C79E50082BBD5 /* zstd_v04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_v04.c; sourceTree = "<group>"; };
+		F525E3B3225C79E50082BBD5 /* zstd_v02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v02.h; sourceTree = "<group>"; };
+		F525E3B4225C79E50082BBD5 /* zstd_legacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_legacy.h; sourceTree = "<group>"; };
+		F525E3B5225C79E50082BBD5 /* zstd_v06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_v06.h; sourceTree = "<group>"; };
+		F525E3B7225C79E50082BBD5 /* zdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zdict.h; sourceTree = "<group>"; };
+		F525E3B8225C79E50082BBD5 /* cover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cover.c; sourceTree = "<group>"; };
+		F525E3B9225C79E50082BBD5 /* divsufsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = divsufsort.c; sourceTree = "<group>"; };
+		F525E3BA225C79E50082BBD5 /* fastcover.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fastcover.c; sourceTree = "<group>"; };
+		F525E3BB225C79E50082BBD5 /* zdict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zdict.c; sourceTree = "<group>"; };
+		F525E3BC225C79E50082BBD5 /* cover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cover.h; sourceTree = "<group>"; };
+		F525E3BD225C79E50082BBD5 /* divsufsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = divsufsort.h; sourceTree = "<group>"; };
+		F525E3BF225C79E50082BBD5 /* zstd_ddict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_ddict.c; sourceTree = "<group>"; };
+		F525E3C0225C79E50082BBD5 /* huf_decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = huf_decompress.c; sourceTree = "<group>"; };
+		F525E3C1225C79E50082BBD5 /* zstd_decompress_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_decompress_block.h; sourceTree = "<group>"; };
+		F525E3C2225C79E50082BBD5 /* zstd_decompress_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_decompress_internal.h; sourceTree = "<group>"; };
+		F525E3C3225C79E50082BBD5 /* zstd_decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_decompress.c; sourceTree = "<group>"; };
+		F525E3C4225C79E50082BBD5 /* zstd_ddict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_ddict.h; sourceTree = "<group>"; };
+		F525E3C5225C79E50082BBD5 /* zstd_decompress_block.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_decompress_block.c; sourceTree = "<group>"; };
+		F525E3C7225C79E50082BBD5 /* zbuff_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zbuff_common.c; sourceTree = "<group>"; };
+		F525E3C8225C79E50082BBD5 /* zbuff_decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zbuff_decompress.c; sourceTree = "<group>"; };
+		F525E3C9225C79E50082BBD5 /* zbuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbuff.h; sourceTree = "<group>"; };
+		F525E3CA225C79E50082BBD5 /* zbuff_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zbuff_compress.c; sourceTree = "<group>"; };
+		F525E3CD225C79E50082BBD5 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F525E3CE225C79E50082BBD5 /* fullbench-dll.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fullbench-dll.sln"; sourceTree = "<group>"; };
+		F525E3CF225C79E50082BBD5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F525E3D0225C79E50082BBD5 /* fullbench-dll.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fullbench-dll.vcxproj"; sourceTree = "<group>"; };
+		F525E3D1225C79E50082BBD5 /* build_package.bat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build_package.bat; sourceTree = "<group>"; };
+		F525E3D2225C79E50082BBD5 /* libzstd.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libzstd.def; sourceTree = "<group>"; };
+		F525E3D4225C79E50082BBD5 /* xxhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxhash.h; sourceTree = "<group>"; };
+		F525E3D5225C79E50082BBD5 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		F525E3D6225C79E50082BBD5 /* pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pool.h; sourceTree = "<group>"; };
+		F525E3D7225C79E50082BBD5 /* compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		F525E3D8225C79E50082BBD5 /* entropy_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy_common.c; sourceTree = "<group>"; };
+		F525E3D9225C79E50082BBD5 /* threading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threading.h; sourceTree = "<group>"; };
+		F525E3DA225C79E50082BBD5 /* error_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error_private.h; sourceTree = "<group>"; };
+		F525E3DB225C79E50082BBD5 /* fse_decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fse_decompress.c; sourceTree = "<group>"; };
+		F525E3DC225C79E50082BBD5 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		F525E3DD225C79E50082BBD5 /* xxhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxhash.c; sourceTree = "<group>"; };
+		F525E3DE225C79E50082BBD5 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		F525E3DF225C79E50082BBD5 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		F525E3E0225C79E50082BBD5 /* zstd_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_errors.h; sourceTree = "<group>"; };
+		F525E3E1225C79E50082BBD5 /* pool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pool.c; sourceTree = "<group>"; };
+		F525E3E2225C79E50082BBD5 /* huf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huf.h; sourceTree = "<group>"; };
+		F525E3E3225C79E50082BBD5 /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
+		F525E3E4225C79E50082BBD5 /* threading.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threading.c; sourceTree = "<group>"; };
+		F525E3E5225C79E50082BBD5 /* zstd_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_common.c; sourceTree = "<group>"; };
+		F525E3E6225C79E50082BBD5 /* fse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fse.h; sourceTree = "<group>"; };
+		F525E3E7225C79E50082BBD5 /* zstd_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_internal.h; sourceTree = "<group>"; };
+		F525E3E8225C79E50082BBD5 /* error_private.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error_private.c; sourceTree = "<group>"; };
+		F525E3EA225C79E50082BBD5 /* zstd_compress_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_compress_internal.h; sourceTree = "<group>"; };
+		F525E3EB225C79E50082BBD5 /* hist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hist.h; sourceTree = "<group>"; };
+		F525E3EC225C79E50082BBD5 /* zstd_ldm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_ldm.h; sourceTree = "<group>"; };
+		F525E3ED225C79E50082BBD5 /* zstd_lazy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_lazy.h; sourceTree = "<group>"; };
+		F525E3EE225C79E50082BBD5 /* zstdmt_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstdmt_compress.c; sourceTree = "<group>"; };
+		F525E3EF225C79E50082BBD5 /* zstd_double_fast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_double_fast.c; sourceTree = "<group>"; };
+		F525E3F0225C79E50082BBD5 /* zstd_fast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_fast.c; sourceTree = "<group>"; };
+		F525E3F1225C79E50082BBD5 /* zstd_opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_opt.h; sourceTree = "<group>"; };
+		F525E3F2225C79E50082BBD5 /* zstd_ldm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_ldm.c; sourceTree = "<group>"; };
+		F525E3F3225C79E50082BBD5 /* hist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hist.c; sourceTree = "<group>"; };
+		F525E3F4225C79E50082BBD5 /* zstd_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_compress.c; sourceTree = "<group>"; };
+		F525E3F5225C79E50082BBD5 /* zstd_double_fast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_double_fast.h; sourceTree = "<group>"; };
+		F525E3F6225C79E50082BBD5 /* zstd_lazy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_lazy.c; sourceTree = "<group>"; };
+		F525E3F7225C79E50082BBD5 /* zstdmt_compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstdmt_compress.h; sourceTree = "<group>"; };
+		F525E3F8225C79E50082BBD5 /* huf_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = huf_compress.c; sourceTree = "<group>"; };
+		F525E3F9225C79E50082BBD5 /* zstd_opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstd_opt.c; sourceTree = "<group>"; };
+		F525E3FA225C79E50082BBD5 /* fse_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fse_compress.c; sourceTree = "<group>"; };
+		F525E3FB225C79E50082BBD5 /* zstd_fast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstd_fast.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0074E40B1D534D0B00018C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0074E4051D534D0B00018C2A = {
+			isa = PBXGroup;
+			children = (
+				0074E4101D534D0B00018C2A /* zstd */,
+				0074E40F1D534D0B00018C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0074E40F1D534D0B00018C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0074E40E1D534D0B00018C2A /* libzstd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0074E4101D534D0B00018C2A /* zstd */ = {
+			isa = PBXGroup;
+			children = (
+				00C408781D8FED6F00BC7CB8 /* lib */,
+				00EAA29E1DD44DF300CCA720 /* PrefixHeader.pch */,
+			);
+			path = zstd;
+			sourceTree = "<group>";
+		};
+		00C408781D8FED6F00BC7CB8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3D3225C79E50082BBD5 /* common */,
+				F525E3E9225C79E50082BBD5 /* compress */,
+				F525E3BE225C79E50082BBD5 /* decompress */,
+				F525E3C6225C79E50082BBD5 /* deprecated */,
+				F525E3B6225C79E50082BBD5 /* dictBuilder */,
+				F525E3CB225C79E50082BBD5 /* dll */,
+				F525E3A6225C79E50082BBD5 /* legacy */,
+				00C408A71D8FED6F00BC7CB8 /* zstd.h */,
+				003ADCF61DB4766500A41BC6 /* LICENSE */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F525E3A6225C79E50082BBD5 /* legacy */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3A7225C79E50082BBD5 /* zstd_v05.c */,
+				F525E3A8225C79E50082BBD5 /* zstd_v03.h */,
+				F525E3A9225C79E50082BBD5 /* zstd_v07.h */,
+				F525E3AA225C79E50082BBD5 /* zstd_v01.c */,
+				F525E3AB225C79E50082BBD5 /* zstd_v06.c */,
+				F525E3AC225C79E50082BBD5 /* zstd_v02.c */,
+				F525E3AD225C79E50082BBD5 /* zstd_v04.h */,
+				F525E3AE225C79E50082BBD5 /* zstd_v01.h */,
+				F525E3AF225C79E50082BBD5 /* zstd_v07.c */,
+				F525E3B0225C79E50082BBD5 /* zstd_v03.c */,
+				F525E3B1225C79E50082BBD5 /* zstd_v05.h */,
+				F525E3B2225C79E50082BBD5 /* zstd_v04.c */,
+				F525E3B3225C79E50082BBD5 /* zstd_v02.h */,
+				F525E3B4225C79E50082BBD5 /* zstd_legacy.h */,
+				F525E3B5225C79E50082BBD5 /* zstd_v06.h */,
+			);
+			path = legacy;
+			sourceTree = "<group>";
+		};
+		F525E3B6225C79E50082BBD5 /* dictBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3B7225C79E50082BBD5 /* zdict.h */,
+				F525E3B8225C79E50082BBD5 /* cover.c */,
+				F525E3B9225C79E50082BBD5 /* divsufsort.c */,
+				F525E3BA225C79E50082BBD5 /* fastcover.c */,
+				F525E3BB225C79E50082BBD5 /* zdict.c */,
+				F525E3BC225C79E50082BBD5 /* cover.h */,
+				F525E3BD225C79E50082BBD5 /* divsufsort.h */,
+			);
+			path = dictBuilder;
+			sourceTree = "<group>";
+		};
+		F525E3BE225C79E50082BBD5 /* decompress */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3BF225C79E50082BBD5 /* zstd_ddict.c */,
+				F525E3C0225C79E50082BBD5 /* huf_decompress.c */,
+				F525E3C1225C79E50082BBD5 /* zstd_decompress_block.h */,
+				F525E3C2225C79E50082BBD5 /* zstd_decompress_internal.h */,
+				F525E3C3225C79E50082BBD5 /* zstd_decompress.c */,
+				F525E3C4225C79E50082BBD5 /* zstd_ddict.h */,
+				F525E3C5225C79E50082BBD5 /* zstd_decompress_block.c */,
+			);
+			path = decompress;
+			sourceTree = "<group>";
+		};
+		F525E3C6225C79E50082BBD5 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3C7225C79E50082BBD5 /* zbuff_common.c */,
+				F525E3C8225C79E50082BBD5 /* zbuff_decompress.c */,
+				F525E3C9225C79E50082BBD5 /* zbuff.h */,
+				F525E3CA225C79E50082BBD5 /* zbuff_compress.c */,
+			);
+			path = deprecated;
+			sourceTree = "<group>";
+		};
+		F525E3CB225C79E50082BBD5 /* dll */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3CC225C79E50082BBD5 /* example */,
+				F525E3D2225C79E50082BBD5 /* libzstd.def */,
+			);
+			path = dll;
+			sourceTree = "<group>";
+		};
+		F525E3CC225C79E50082BBD5 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3CD225C79E50082BBD5 /* Makefile */,
+				F525E3CE225C79E50082BBD5 /* fullbench-dll.sln */,
+				F525E3CF225C79E50082BBD5 /* README.md */,
+				F525E3D0225C79E50082BBD5 /* fullbench-dll.vcxproj */,
+				F525E3D1225C79E50082BBD5 /* build_package.bat */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		F525E3D3225C79E50082BBD5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3D4225C79E50082BBD5 /* xxhash.h */,
+				F525E3D5225C79E50082BBD5 /* debug.h */,
+				F525E3D6225C79E50082BBD5 /* pool.h */,
+				F525E3D7225C79E50082BBD5 /* compiler.h */,
+				F525E3D8225C79E50082BBD5 /* entropy_common.c */,
+				F525E3D9225C79E50082BBD5 /* threading.h */,
+				F525E3DA225C79E50082BBD5 /* error_private.h */,
+				F525E3DB225C79E50082BBD5 /* fse_decompress.c */,
+				F525E3DC225C79E50082BBD5 /* debug.c */,
+				F525E3DD225C79E50082BBD5 /* xxhash.c */,
+				F525E3DE225C79E50082BBD5 /* bitstream.h */,
+				F525E3DF225C79E50082BBD5 /* cpu.h */,
+				F525E3E0225C79E50082BBD5 /* zstd_errors.h */,
+				F525E3E1225C79E50082BBD5 /* pool.c */,
+				F525E3E2225C79E50082BBD5 /* huf.h */,
+				F525E3E3225C79E50082BBD5 /* mem.h */,
+				F525E3E4225C79E50082BBD5 /* threading.c */,
+				F525E3E5225C79E50082BBD5 /* zstd_common.c */,
+				F525E3E6225C79E50082BBD5 /* fse.h */,
+				F525E3E7225C79E50082BBD5 /* zstd_internal.h */,
+				F525E3E8225C79E50082BBD5 /* error_private.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F525E3E9225C79E50082BBD5 /* compress */ = {
+			isa = PBXGroup;
+			children = (
+				F525E3EA225C79E50082BBD5 /* zstd_compress_internal.h */,
+				F525E3EB225C79E50082BBD5 /* hist.h */,
+				F525E3EC225C79E50082BBD5 /* zstd_ldm.h */,
+				F525E3ED225C79E50082BBD5 /* zstd_lazy.h */,
+				F525E3EE225C79E50082BBD5 /* zstdmt_compress.c */,
+				F525E3EF225C79E50082BBD5 /* zstd_double_fast.c */,
+				F525E3F0225C79E50082BBD5 /* zstd_fast.c */,
+				F525E3F1225C79E50082BBD5 /* zstd_opt.h */,
+				F525E3F2225C79E50082BBD5 /* zstd_ldm.c */,
+				F525E3F3225C79E50082BBD5 /* hist.c */,
+				F525E3F4225C79E50082BBD5 /* zstd_compress.c */,
+				F525E3F5225C79E50082BBD5 /* zstd_double_fast.h */,
+				F525E3F6225C79E50082BBD5 /* zstd_lazy.c */,
+				F525E3F7225C79E50082BBD5 /* zstdmt_compress.h */,
+				F525E3F8225C79E50082BBD5 /* huf_compress.c */,
+				F525E3F9225C79E50082BBD5 /* zstd_opt.c */,
+				F525E3FA225C79E50082BBD5 /* fse_compress.c */,
+				F525E3FB225C79E50082BBD5 /* zstd_fast.h */,
+			);
+			path = compress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00E34FB41D8101B7003A1C3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F525E410225C79E50082BBD5 /* cover.h in Headers */,
+				F525E423225C79E50082BBD5 /* threading.h in Headers */,
+				00EAA29F1DD44DF300CCA720 /* PrefixHeader.pch in Headers */,
+				F525E41F225C79E50082BBD5 /* debug.h in Headers */,
+				F525E428225C79E50082BBD5 /* bitstream.h in Headers */,
+				F525E3FE225C79E50082BBD5 /* zstd_v07.h in Headers */,
+				F525E42D225C79E50082BBD5 /* mem.h in Headers */,
+				F525E40B225C79E50082BBD5 /* zdict.h in Headers */,
+				F525E430225C79E50082BBD5 /* fse.h in Headers */,
+				F525E41B225C79E50082BBD5 /* zbuff.h in Headers */,
+				F525E40A225C79E50082BBD5 /* zstd_v06.h in Headers */,
+				F525E42C225C79E50082BBD5 /* huf.h in Headers */,
+				F525E433225C79E50082BBD5 /* zstd_compress_internal.h in Headers */,
+				F525E406225C79E50082BBD5 /* zstd_v05.h in Headers */,
+				F525E402225C79E50082BBD5 /* zstd_v04.h in Headers */,
+				F525E415225C79E50082BBD5 /* zstd_decompress_internal.h in Headers */,
+				F525E43E225C79E50082BBD5 /* zstd_double_fast.h in Headers */,
+				F525E420225C79E50082BBD5 /* pool.h in Headers */,
+				F525E408225C79E50082BBD5 /* zstd_v02.h in Headers */,
+				F525E421225C79E50082BBD5 /* compiler.h in Headers */,
+				F525E414225C79E50082BBD5 /* zstd_decompress_block.h in Headers */,
+				F525E444225C79E50082BBD5 /* zstd_fast.h in Headers */,
+				F525E434225C79E50082BBD5 /* hist.h in Headers */,
+				F525E403225C79E50082BBD5 /* zstd_v01.h in Headers */,
+				F525E429225C79E50082BBD5 /* cpu.h in Headers */,
+				F525E411225C79E50082BBD5 /* divsufsort.h in Headers */,
+				F525E3FD225C79E50082BBD5 /* zstd_v03.h in Headers */,
+				F525E424225C79E50082BBD5 /* error_private.h in Headers */,
+				F525E431225C79E50082BBD5 /* zstd_internal.h in Headers */,
+				F525E43A225C79E50082BBD5 /* zstd_opt.h in Headers */,
+				F525E41E225C79E50082BBD5 /* xxhash.h in Headers */,
+				F525E409225C79E50082BBD5 /* zstd_legacy.h in Headers */,
+				F525E435225C79E50082BBD5 /* zstd_ldm.h in Headers */,
+				F525E440225C79E50082BBD5 /* zstdmt_compress.h in Headers */,
+				F525E417225C79E50082BBD5 /* zstd_ddict.h in Headers */,
+				F525E436225C79E50082BBD5 /* zstd_lazy.h in Headers */,
+				F525E42A225C79E50082BBD5 /* zstd_errors.h in Headers */,
+				00C408D01D8FED6F00BC7CB8 /* zstd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0074E40D1D534D0B00018C2A /* zstd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0074E4171D534D0B00018C2A /* Build configuration list for PBXNativeTarget "zstd" */;
+			buildPhases = (
+				0074E40A1D534D0B00018C2A /* Sources */,
+				0074E40B1D534D0B00018C2A /* Frameworks */,
+				0074E40C1D534D0B00018C2A /* CopyFiles */,
+				00E34FB41D8101B7003A1C3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zstd;
+			productName = zstd;
+			productReference = 0074E40E1D534D0B00018C2A /* libzstd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0074E4061D534D0B00018C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TendCloud;
+				TargetAttributes = {
+					0074E40D1D534D0B00018C2A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0074E4091D534D0B00018C2A /* Build configuration list for PBXProject "zstd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 0074E4051D534D0B00018C2A;
+			productRefGroup = 0074E40F1D534D0B00018C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0074E40D1D534D0B00018C2A /* zstd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0074E40A1D534D0B00018C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F525E413225C79E50082BBD5 /* huf_decompress.c in Sources */,
+				F525E405225C79E50082BBD5 /* zstd_v03.c in Sources */,
+				F525E412225C79E50082BBD5 /* zstd_ddict.c in Sources */,
+				F525E438225C79E50082BBD5 /* zstd_double_fast.c in Sources */,
+				F525E400225C79E50082BBD5 /* zstd_v06.c in Sources */,
+				F525E41D225C79E50082BBD5 /* Makefile in Sources */,
+				F525E43B225C79E50082BBD5 /* zstd_ldm.c in Sources */,
+				F525E443225C79E50082BBD5 /* fse_compress.c in Sources */,
+				F525E419225C79E50082BBD5 /* zbuff_common.c in Sources */,
+				F525E3FF225C79E50082BBD5 /* zstd_v01.c in Sources */,
+				F525E407225C79E50082BBD5 /* zstd_v04.c in Sources */,
+				F525E404225C79E50082BBD5 /* zstd_v07.c in Sources */,
+				F525E42F225C79E50082BBD5 /* zstd_common.c in Sources */,
+				F525E40E225C79E50082BBD5 /* fastcover.c in Sources */,
+				F525E42E225C79E50082BBD5 /* threading.c in Sources */,
+				F525E422225C79E50082BBD5 /* entropy_common.c in Sources */,
+				F525E43C225C79E50082BBD5 /* hist.c in Sources */,
+				F525E439225C79E50082BBD5 /* zstd_fast.c in Sources */,
+				F525E40F225C79E50082BBD5 /* zdict.c in Sources */,
+				F525E442225C79E50082BBD5 /* zstd_opt.c in Sources */,
+				F525E416225C79E50082BBD5 /* zstd_decompress.c in Sources */,
+				F525E43D225C79E50082BBD5 /* zstd_compress.c in Sources */,
+				F525E43F225C79E50082BBD5 /* zstd_lazy.c in Sources */,
+				F525E3FC225C79E50082BBD5 /* zstd_v05.c in Sources */,
+				F525E432225C79E50082BBD5 /* error_private.c in Sources */,
+				F525E418225C79E50082BBD5 /* zstd_decompress_block.c in Sources */,
+				F525E401225C79E50082BBD5 /* zstd_v02.c in Sources */,
+				F525E437225C79E50082BBD5 /* zstdmt_compress.c in Sources */,
+				F525E41A225C79E50082BBD5 /* zbuff_decompress.c in Sources */,
+				F525E42B225C79E50082BBD5 /* pool.c in Sources */,
+				F525E427225C79E50082BBD5 /* xxhash.c in Sources */,
+				F525E426225C79E50082BBD5 /* debug.c in Sources */,
+				F525E40D225C79E50082BBD5 /* divsufsort.c in Sources */,
+				F525E441225C79E50082BBD5 /* huf_compress.c in Sources */,
+				F525E425225C79E50082BBD5 /* fse_decompress.c in Sources */,
+				F525E40C225C79E50082BBD5 /* cover.c in Sources */,
+				F525E41C225C79E50082BBD5 /* zbuff_compress.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0074E4151D534D0B00018C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0074E4161D534D0B00018C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0074E4181D534D0B00018C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				BITCODE_GENERATION_MODE = marker;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = zstd/PrefixHeader.pch;
+				OTHER_CFLAGS = "-fembed-bitcode-marker";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0074E4191D534D0B00018C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				BITCODE_GENERATION_MODE = bitcode;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = zstd/PrefixHeader.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				"OTHER_CFLAGS[arch=*]" = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0074E4091D534D0B00018C2A /* Build configuration list for PBXProject "zstd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074E4151D534D0B00018C2A /* Debug */,
+				0074E4161D534D0B00018C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0074E4171D534D0B00018C2A /* Build configuration list for PBXNativeTarget "zstd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074E4181D534D0B00018C2A /* Debug */,
+				0074E4191D534D0B00018C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0074E4061D534D0B00018C2A /* Project object */;
+}
